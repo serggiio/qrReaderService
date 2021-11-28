@@ -11,8 +11,8 @@
     "serve:ssr": "node dist/qrReaderService/server/main.js",
     "build:ssr": "ng build && ng run qrReaderService:server",
     "prerender": "ng run qrReaderService:prerender",
-    "start:heroku": "node dist/server",
-    "postinstall": "npm run build:ssr"
+    "start:heroku":"node dist/server",
+    "postinstall":"npm run build:ssr" 
   },
   "private": true,
   "dependencies": {
